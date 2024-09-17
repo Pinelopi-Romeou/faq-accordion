@@ -24,7 +24,7 @@ Mobile version:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/faq-accordion-3tKNtdI-M6)
 - Live Site URL: [PinelopiRomeou](https://pinelopi-romeou.netlify.app)
 
 ## My process
