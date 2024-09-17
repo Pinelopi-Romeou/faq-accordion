@@ -1,0 +1,113 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    background: url(./assets/images/background-pattern-desktop.svg) var(--light-pink) no-repeat;
+}
+
+.container {
+    background-color: var(--white);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.heading {
+    font-size: 16px;
+    color: var(--dark-purple);
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 700;
+}
+
+.heading img {
+    width: 25px;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--light-pink);
+}
+
+.faq-item:last-of-type {
+    border-bottom: none;
+}
+
+h2:active, h2:hover {
+    cursor: pointer;
+    color: rgb(158, 1, 163);
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+.question:focus-visible {
+    outline: none;
+    border: 1px solid #5a00f0;
+    border-radius: 5px;
+}
+
+h2 {
+    color: var(--dark-purple);
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.answer {
+    color: var(--grayish-purple);
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+@media (min-width: 376px) {
+    body {
+        background: url(./assets/images/background-pattern-desktop.svg) var(--light-pink) repeat-x;
+        background-position: 0 -100px;
+    }
+
+    .container {
+        width: 40%;
+        padding: 35px;
+        box-shadow: 0 0 10px hsla(292, 42%, 14%, 0.2);
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .question {
+        gap: 25px;
+    }
+
+    h2 {
+        font-size: 14.5px;
+    }
+
+    .answer {
+        font-size: 13px;
+        padding-bottom: 27px;
+    }
+}
