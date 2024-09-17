@@ -17,7 +17,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ### Screenshots
 
 Desktop version:
-![](./screenshots/desktop-version.png)
+![](./screenshots/des-version.png)
 
 Mobile version:
 ![](./screenshots/mobile-version.png)
